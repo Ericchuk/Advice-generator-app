@@ -1,0 +1,79 @@
+:root{
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(218, 23%, 16%);
+    text-align:center;
+    padding:30% 5%;
+}
+
+section{
+    background-color: hsl(217, 19%, 24%);
+    padding:20px 30px;
+    position: relative;
+    margin:10px 0 60px;
+    border-radius:20px;
+    box-shadow:0 4px 8px 0 rgba(29, 29, 29, 0.781);
+}
+
+h2{
+    color:hsl(150, 100%, 66%);
+    font-size:15px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding:10px 0 20px;
+}
+
+p{
+    color:hsl(193, 38%, 86%);
+    padding:0 30px 30px;
+    font-size :20px;
+    font-weight:700;
+    line-height:1.6rem;
+}
+
+.divider{
+    width:100%;
+    padding:0px 0 20px;
+}
+
+aside{
+    background-color: var(--Neon-Green);
+    /* width: 30%; */
+    position: absolute; 
+    left:37vw;
+    padding:10px;
+    border-radius: 100%;
+    transition: box-shadow .4s ease;
+}
+aside:hover{
+    box-shadow: 0 0px 15px 3px hsla(150, 100%, 66%, 0.925)
+}
+
+.dice{
+    width:auto;
+    padding:5px 6px 4px;
+}
+
+@media screen and (min-width:700px) {
+    body{
+        padding:10% 28%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    body{
+        padding:10% 35%;
+    }
+}
