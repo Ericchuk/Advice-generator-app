@@ -70,10 +70,16 @@ aside:hover{
     body{
         padding:10% 28%;
     }
+    aside{
+        left:18vw;
+    }
 }
 
 @media screen and (min-width:1000px) {
     body{
         padding:10% 35%;
+    }
+    aside{
+        left:13vw;
     }
 }
